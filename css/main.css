@@ -86,7 +86,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+html {
+  font-size: 16px;
+}
+body {
+  width: 100%;
+  margin: 0;
+  font-size: 1em;
+}
 /***** Base Header - Footer Styles  *****/
 
 header,
@@ -97,25 +104,55 @@ footer {
   flex-flow: row wrap;
 }
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 55%;
+  margin: 0;
 }
 
-.header-divider {}
+.header-divider {
+  border: 1px solid lightgrey;
+  width: 100%;
+  margin-top: 10px;
+
+}
 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 80%;
+  
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  flex-direction: row wrap;
+  list-style: none;
+  width: 95%;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+  padding: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -129,6 +166,20 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
+footer h4 {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
+.copyright p {
+  margin: 20px 0;
+}
 
 
 /* --------- Mobile Styles - Homepage --------- */
@@ -140,7 +191,13 @@ footer .social-icons p {
   justify-content: center;
   flex-flow: row wrap;
 }
-
+.hero-area h1 {
+  width: 85%;
+  margin: 0;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+}
 /* Aside */
 
 aside {
@@ -149,6 +206,28 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+.form-description h3 {
+  margin: 20px 0;
+}
+.form-description p {
+  margin: 0 0 20px 0 ;
+}
+.form h3 {
+  margin: 20px 0;
+}  
+.email-form {
+  padding: 1em 0;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.itinerary-form {
+  padding: 20px 0;
+  width: 100%;
+  margin-top: 20px;
+  font-weight: 500;
+}
 
 /* Features */
 
@@ -156,6 +235,34 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+.features .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.features h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0 0 60px 0;
+  width: 75%;
+}
+.features .fontawsome-icon {
+  margin: 30px 0 40px 0;
+  font-size: 60px;
+}
+.features .features-item-description {
+  margin-bottom: 30px;
+}
+.features p {
+  margin: 0;
+}
+
+.features article {
+  text-align: center;
+  width: 60%;
 }
 
 .features .features-items {
@@ -171,6 +278,17 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+.reviews h2 {
+margin: 0 0 40px 0;
+font-size: 30px;
+line-height: 30px;
+font-weight: 500;
+
+}
+.reviews h3 {
+  width: 50%;
+  margin: 20px 0;
 }
 
 /* =========================================================
