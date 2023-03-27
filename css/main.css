@@ -89,11 +89,18 @@ textarea {
 html {
   font-size: 16px;
 }
+
 body {
   width: 100%;
   margin: 0;
   font-size: 1em;
 }
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /***** Base Header - Footer Styles  *****/
 
 header,
@@ -104,10 +111,6 @@ footer {
   flex-flow: row wrap;
 }
 
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
-}
 header {
   padding: 15px 0;
 }
@@ -117,15 +120,13 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 55%;
   margin: 0;
 }
 
 .header-divider {
-  border: 1px solid lightgrey;
+  height: 1px;
   width: 100%;
   margin-top: 10px;
-
 }
 
 header nav {
@@ -133,14 +134,13 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 80%;
+  width: 60%;
   
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  flex-direction: row wrap;
   list-style: none;
   width: 95%;
   text-transform: uppercase;
@@ -153,6 +153,9 @@ header nav ul {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+}
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -177,6 +180,10 @@ footer p {
   margin: 0;
   text-align: center;
 }
+footer {
+  flex-direction: column;
+}
+
 .copyright p {
   margin: 20px 0;
 }
@@ -246,7 +253,7 @@ aside {
   font-size: 30px;
   font-weight: 500;
   line-height: 30px;
-  margin: 0 0 60px 0;
+  margin-bottom: 60px;
   width: 75%;
 }
 .features .fontawsome-icon {
@@ -280,7 +287,7 @@ aside {
   flex-flow: row wrap;
 }
 .reviews h2 {
-margin: 0 0 40px 0;
+margin-bottom: 40px;
 font-size: 30px;
 line-height: 30px;
 font-weight: 500;
@@ -308,6 +315,9 @@ font-weight: 500;
   align-items: center;
   flex-flow: row wrap;
 }
+.contact-content p {
+  margin: 0;
+}
 
 /* =============================================================
    Mobile Styles - FAQ Page
@@ -318,6 +328,7 @@ font-weight: 500;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  
 }
 
 .faq .content-wrapper {
@@ -325,6 +336,15 @@ font-weight: 500;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
