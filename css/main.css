@@ -397,6 +397,22 @@ line-height: 1;
   background: #527158;
 }
 
+.map figure {
+  width: 100%;
+  position: relative;
+  padding-bottom: 125%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
