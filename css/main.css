@@ -710,8 +710,11 @@ footer .copyright {
   width: 45%;
 }
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 .contact-section .content-wrapper h2 {
-  /* font-size: 36px; */
   width: 80%;
 }
 
@@ -820,6 +823,9 @@ aside .content-wrapper .form {
 /* ======================================
 About Page
 ==================================== */
+.map figure {
+  padding-bottom: 37%;
+}
 
 .mission h2,
 .contact-section .content-wrapper h2 {
