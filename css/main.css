@@ -237,8 +237,8 @@ footer .social-icons {
   margin: 0 15px;
   border-radius: 40px;
   background: #527158;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 footer .social-icons p {
@@ -386,9 +386,8 @@ input[type=button] {
   background-color: #2a423a;
 }
 
-.reviews 
 .reviews h2 {
-margin-bottom: 40px;
+margin: 0 0 40px 0;
 font-size: 1.875em;
 line-height: 1;
 }
@@ -408,6 +407,10 @@ line-height: 1;
   align-items: center;
   flex-flow: row wrap;
   background: #527158;
+}
+.mission h2,
+.contact-section h2 {
+  margin: 0;
 }
 
 .map figure {
@@ -812,10 +815,6 @@ aside .content-wrapper .form {
   
 }
 
-.reviews figure {
-  flex-basis: 49%;
-}
-
 .features article {
   flex-basis: 33%;
 }
@@ -823,7 +822,13 @@ aside .content-wrapper .form {
 /* Reviews */
 .reviews h2 {
   padding-bottom: 50px;
+  margin: 0 0 20px 0;
   width: 100%;
+  
+}
+
+.reviews figure {
+  flex-basis: 49%;
 }
 
 .reviews article div {
